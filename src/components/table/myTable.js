@@ -8,7 +8,8 @@ function MyTable() {
     'Second Name',
     'Active',
     'Salary',
-    'Delete'
+    'Delete',
+    'Edit'
   ]
 
   // const mainData = []
@@ -71,7 +72,6 @@ function MyTable() {
                   updateRow(event.target.innerHTML, data, prop)
                 }}
               >
-
                 {value}
               </td>
             ))}
